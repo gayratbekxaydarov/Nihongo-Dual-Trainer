@@ -1,0 +1,21 @@
+services:
+  voice-trainer:
+    build:
+      context: .
+      dockerfile: 1-voice-trainer/Dockerfile
+    ports:
+      - "8001:8000"
+    volumes:
+      # so'zlarni qayta build qilmasdan tahrirlash uchun (ixtiyoriy)
+      - ./words.json:/app/words.json:ro
+    restart: unless-stopped
+
+  timer-trainer:
+    build:
+      context: .
+      dockerfile: 2-timer-trainer/Dockerfile
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./words.json:/app/words.json:ro
+    restart: unless-stopped

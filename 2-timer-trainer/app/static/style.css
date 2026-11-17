@@ -1,0 +1,176 @@
+/* ===== Umumiy sahifa ===== */
+:root {
+    --card-bg: rgba(15, 23, 42, 0.74);
+    --card-line: rgba(148, 163, 184, 0.35);
+    --accent: #38bdf8;
+    --muted: #cbd5e1;
+    --good: #4ade80;
+    --bad: #f87171;
+    --gold: #facc15;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+
+body {
+    background-color: #0f172a !important;
+    color: #f8fafc !important;
+    font-family: 'Segoe UI', 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* Orqa fon rasmi (telefonlarda ham to'g'ri ishlashi uchun fixed pseudo-element) */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+        linear-gradient(180deg, rgba(15, 23, 42, 0.35) 0%, rgba(15, 23, 42, 0.65) 100%),
+        url('/static/bg.jpg') center / cover no-repeat;
+}
+
+.trainer-card {
+    background-color: var(--card-bg);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--card-line);
+    border-radius: 1.1rem;
+    box-shadow: 0 18px 40px -10px rgba(0, 0, 0, 0.55);
+    max-width: 520px;
+    width: 100%;
+    padding: 1.25rem;
+}
+@media (min-width: 576px) {
+    .trainer-card { padding: 2rem; }
+}
+
+.intro { color: var(--muted); font-size: 0.92rem; margin-bottom: 1rem; }
+
+/* ===== Kanji ===== */
+.kanji-display {
+    font-size: clamp(3rem, 17vw, 5rem);
+    font-weight: bold;
+    color: var(--accent);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
+    text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+}
+.kanji-display.len-4 { font-size: clamp(2.3rem, 12vw, 3.6rem); }
+.kanji-display.len-6 { font-size: clamp(1.9rem, 9.5vw, 2.9rem); }
+
+.meaning-text {
+    font-size: 1.2rem;
+    color: var(--muted);
+    min-height: 1.9rem;
+}
+
+/* ===== Mikrofon tugmasi ===== */
+.mic-btn {
+    transition: all 0.2s ease-in-out;
+    font-size: 1.1rem;
+    padding: 1rem 1.25rem;
+    font-weight: 500;
+    border-radius: 0.9rem;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    touch-action: none;
+}
+
+/* Mikrofon yoniq holatdagi qizil animatsiya (Pulse effect) */
+.mic-btn.listening {
+    background-color: #ef4444 !important;
+    border-color: #dc2626 !important;
+    animation: pulse-red 1.5s infinite;
+}
+
+@keyframes pulse-red {
+    0%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+    70%  { transform: scale(1.02); box-shadow: 0 0 0 12px rgba(239, 68, 68, 0); }
+    100% { transform: scale(1);    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mic-btn.listening { animation: none; }
+}
+
+/* ===== Holat va natija ===== */
+.status-badge {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50rem;
+}
+
+.heard-text { min-height: 1.5rem; font-weight: 600; color: var(--accent); overflow-wrap: anywhere; }
+.heard-text.good { color: var(--good); }
+.heard-text.bad  { color: var(--bad); }
+
+.answer-box {
+    background-color: rgba(2, 6, 23, 0.55);
+    border: 1px solid var(--card-line);
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    margin-top: 0.75rem;
+}
+.answer-reading { font-size: 1.9rem; font-weight: 600; color: var(--gold); }
+.answer-romaji  { color: var(--muted); letter-spacing: 0.04em; }
+
+.hint-text { min-height: 1.25rem; font-size: 0.85rem; color: var(--muted); }
+
+/* ===== Taymer rejimi ===== */
+.seconds-input {
+    max-width: 8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(2, 6, 23, 0.55) !important;
+    color: #f8fafc !important;
+    border-color: var(--card-line) !important;
+}
+
+.chip {
+    min-width: 3.2rem;
+    border-radius: 50rem;
+}
+.chip.active {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #0f172a;
+    font-weight: 600;
+}
+
+/* Faqat kanji: katta va markazda */
+.kanji-stage {
+    min-height: 9.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kanji-big {
+    font-size: clamp(4.2rem, 24vw, 7.5rem);
+    font-weight: bold;
+    color: var(--accent);
+    line-height: 1.1;
+    overflow-wrap: anywhere;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
+}
+.kanji-big.len-4 { font-size: clamp(3rem, 15vw, 5rem); }
+.kanji-big.len-6 { font-size: clamp(2.4rem, 12vw, 4rem); }
+
+.timer-progress {
+    height: 6px;
+    background-color: rgba(148, 163, 184, 0.3);
+}
+.timer-progress .progress-bar { transition: width 0.1s linear; }
+
+.control-btn { min-width: 3.4rem; padding: 0.6rem 0.9rem; font-size: 1.1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+    .timer-progress .progress-bar { transition: none; }
+}

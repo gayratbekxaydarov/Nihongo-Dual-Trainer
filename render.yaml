@@ -1,0 +1,22 @@
+# Render Blueprint: ikkala rejim ham bitta repodan, ikkita alohida web-servis sifatida.
+# Render -> New -> Blueprint -> shu repoga ulang.
+services:
+  - type: web
+    name: nihongo-voice-trainer
+    runtime: docker
+    dockerfilePath: ./1-voice-trainer/Dockerfile
+    dockerContext: .
+    region: frankfurt        # O'zbekistonga eng yaqin region
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
+
+  - type: web
+    name: nihongo-timer-trainer
+    runtime: docker
+    dockerfilePath: ./2-timer-trainer/Dockerfile
+    dockerContext: .
+    region: frankfurt
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true

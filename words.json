@@ -1,0 +1,434 @@
+[
+    {
+        "kanji": "下げる",
+        "reading": "さげる",
+        "romaji": "sageru",
+        "meaning": "Tushirmoq, pasaytirmoq"
+    },
+    {
+        "kanji": "上がる",
+        "reading": "あがる",
+        "romaji": "agaru",
+        "meaning": "Ko'tarilmoq"
+    },
+    {
+        "kanji": "下がる",
+        "reading": "さがる",
+        "romaji": "sagaru",
+        "meaning": "Pasaymoq, tushmoq"
+    },
+    {
+        "kanji": "登る",
+        "reading": "のぼる",
+        "romaji": "noboru",
+        "meaning": "Tirmashib chiqmoq"
+    },
+    {
+        "kanji": "下りる",
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "Tushmoq (poyezddan)"
+    },
+    {
+        "kanji": "上げる",
+        "reading": "あげる",
+        "romaji": "ageru",
+        "meaning": "Ko'tarmoq"
+    },
+    {
+        "kanji": "減る",
+        "reading": "へる",
+        "romaji": "heru",
+        "meaning": "Kamaymoq"
+    },
+    {
+        "kanji": "乗る",
+        "reading": "のる",
+        "romaji": "noru",
+        "meaning": "Minmoq (transportga)"
+    },
+    {
+        "kanji": "降りる",
+        "reading": "おりる",
+        "romaji": "oriru",
+        "meaning": "Avtobusdan tushmoq"
+    },
+    {
+        "kanji": "入れる",
+        "reading": "いれる",
+        "romaji": "ireru",
+        "meaning": "Kiritmoq, solmoq"
+    },
+    {
+        "kanji": "出す",
+        "reading": "だす",
+        "romaji": "dasu",
+        "meaning": "Chiqarmoq"
+    },
+    {
+        "kanji": "増える",
+        "reading": "ふえる",
+        "romaji": "fueru",
+        "meaning": "Ko'paymoq"
+    },
+    {
+        "kanji": "やせる",
+        "reading": "やせる",
+        "romaji": "yaseru",
+        "meaning": "Ozmoq"
+    },
+    {
+        "kanji": "お年寄り",
+        "reading": "おとしより",
+        "romaji": "otoshiyori",
+        "meaning": "Qariya, keksa kishi"
+    },
+    {
+        "kanji": "若い",
+        "reading": "わかい",
+        "romaji": "wakai",
+        "meaning": "Yosh"
+    },
+    {
+        "kanji": "かける",
+        "reading": "かける",
+        "romaji": "kakeru",
+        "meaning": "Taqmoq (ko'zoynak)"
+    },
+    {
+        "kanji": "かぶる",
+        "reading": "かぶる",
+        "romaji": "kaburu",
+        "meaning": "Kiymoq (boshga)"
+    },
+    {
+        "kanji": "長い",
+        "reading": "ながい",
+        "romaji": "nagai",
+        "meaning": "Uzun"
+    },
+    {
+        "kanji": "似る",
+        "reading": "にる",
+        "romaji": "niru",
+        "meaning": "O'xshamoq"
+    },
+    {
+        "kanji": "真面目な",
+        "reading": "まじめな",
+        "romaji": "majimena",
+        "meaning": "Jiddiy, tirishqoq"
+    },
+    {
+        "kanji": "さす",
+        "reading": "さす",
+        "romaji": "sasu",
+        "meaning": "Ushlash (soyabon)"
+    },
+    {
+        "kanji": "走る",
+        "reading": "はしる",
+        "romaji": "hashiru",
+        "meaning": "Yugurmoq"
+    },
+    {
+        "kanji": "踊る",
+        "reading": "おどる",
+        "romaji": "odoru",
+        "meaning": "Raqsga tushmoq"
+    },
+    {
+        "kanji": "歌う",
+        "reading": "うたう",
+        "romaji": "utau",
+        "meaning": "Kuylamoq"
+    },
+    {
+        "kanji": "動く",
+        "reading": "うごく",
+        "romaji": "ugoku",
+        "meaning": "Harakatlanmoq"
+    },
+    {
+        "kanji": "洗剤",
+        "reading": "せんざい",
+        "romaji": "senzai",
+        "meaning": "Yuvish vositasi"
+    },
+    {
+        "kanji": "どうやって",
+        "reading": "どうやって",
+        "romaji": "douyatte",
+        "meaning": "Qanday qilib"
+    },
+    {
+        "kanji": "消える",
+        "reading": "きえる",
+        "romaji": "kieru",
+        "meaning": "O'chmoq, yo'qolmoq"
+    },
+    {
+        "kanji": "押す",
+        "reading": "おす",
+        "romaji": "osu",
+        "meaning": "Bosmoq"
+    },
+    {
+        "kanji": "止まる",
+        "reading": "とまる",
+        "romaji": "tomaru",
+        "meaning": "To'xtamoq"
+    },
+    {
+        "kanji": "道路",
+        "reading": "どうろ",
+        "romaji": "douro",
+        "meaning": "Yo'l"
+    },
+    {
+        "kanji": "開く",
+        "reading": "ひらく",
+        "romaji": "hiraku",
+        "meaning": "Ochmoq"
+    },
+    {
+        "kanji": "消す",
+        "reading": "けす",
+        "romaji": "kesu",
+        "meaning": "O'chirmoq"
+    },
+    {
+        "kanji": "信号",
+        "reading": "しんごう",
+        "romaji": "shingou",
+        "meaning": "Svetafor"
+    },
+    {
+        "kanji": "安全な",
+        "reading": "あんぜんな",
+        "romaji": "anzenna",
+        "meaning": "Xavfsiz"
+    },
+    {
+        "kanji": "渡る",
+        "reading": "わたる",
+        "romaji": "wataru",
+        "meaning": "Kesib o'tmoq"
+    },
+    {
+        "kanji": "余る",
+        "reading": "あまる",
+        "romaji": "amaru",
+        "meaning": "Ortib qolmoq"
+    },
+    {
+        "kanji": "残る",
+        "reading": "のこる",
+        "romaji": "nokoru",
+        "meaning": "Qolmoq"
+    },
+    {
+        "kanji": "間違える",
+        "reading": "まちがえる",
+        "romaji": "machigaeru",
+        "meaning": "Xato qilmoq"
+    },
+    {
+        "kanji": "調べる",
+        "reading": "しらべる",
+        "romaji": "shiraberu",
+        "meaning": "Qidirmoq, o'rganmoq"
+    },
+    {
+        "kanji": "チェックする",
+        "reading": "ちぇっくする",
+        "romaji": "chekkusuru",
+        "meaning": "Tekshirmoq"
+    },
+    {
+        "kanji": "足りる",
+        "reading": "たりる",
+        "romaji": "tariru",
+        "meaning": "Yetarli bo'lmoq"
+    },
+    {
+        "kanji": "写す",
+        "reading": "うつす",
+        "romaji": "utsusu",
+        "meaning": "Ko'chirmoq"
+    },
+    {
+        "kanji": "役に立つ",
+        "reading": "やくにたつ",
+        "romaji": "yakunitatsu",
+        "meaning": "Foydali bo'lmoq"
+    },
+    {
+        "kanji": "質問する",
+        "reading": "しつもんする",
+        "romaji": "shitsumonsuru",
+        "meaning": "Savol bermoq"
+    },
+    {
+        "kanji": "できる",
+        "reading": "できる",
+        "romaji": "dekiru",
+        "meaning": "Qo'lidan kelmoq"
+    },
+    {
+        "kanji": "塗る",
+        "reading": "ぬる",
+        "romaji": "nuru",
+        "meaning": "Surkamoq, bo'yamoq"
+    },
+    {
+        "kanji": "貼る",
+        "reading": "はる",
+        "romaji": "haru",
+        "meaning": "Yopishtirmoq"
+    },
+    {
+        "kanji": "ずっと",
+        "reading": "ずっと",
+        "romaji": "zutto",
+        "meaning": "Ancha, har doim"
+    },
+    {
+        "kanji": "やっと",
+        "reading": "やっと",
+        "romaji": "yatto",
+        "meaning": "Va nihoyat"
+    },
+    {
+        "kanji": "きっと",
+        "reading": "きっと",
+        "romaji": "kitto",
+        "meaning": "Albatta, shubhasiz"
+    },
+    {
+        "kanji": "もうすぐ",
+        "reading": "もうすぐ",
+        "romaji": "mousugu",
+        "meaning": "Tez orada"
+    },
+    {
+        "kanji": "最近",
+        "reading": "さいきん",
+        "romaji": "saikin",
+        "meaning": "Yaqinda, shu kunlarda"
+    },
+    {
+        "kanji": "さっき",
+        "reading": "さっき",
+        "romaji": "sakki",
+        "meaning": "Biroz oldin"
+    },
+    {
+        "kanji": "ずいぶん",
+        "reading": "ずいぶん",
+        "romaji": "zuibun",
+        "meaning": "Juda, ancha"
+    },
+    {
+        "kanji": "たいてい",
+        "reading": "たいてい",
+        "romaji": "taitei",
+        "meaning": "Odatda"
+    },
+    {
+        "kanji": "必ず",
+        "reading": "かならず",
+        "romaji": "kanarazu",
+        "meaning": "Albatta"
+    },
+    {
+        "kanji": "間に合う",
+        "reading": "まにあう",
+        "romaji": "maniau",
+        "meaning": "Ulgurmoq"
+    },
+    {
+        "kanji": "遅れる",
+        "reading": "おくれる",
+        "romaji": "okureru",
+        "meaning": "Kechikmoq"
+    },
+    {
+        "kanji": "やっぱり",
+        "reading": "やっぱり",
+        "romaji": "yappari",
+        "meaning": "Baribir"
+    },
+    {
+        "kanji": "壊す",
+        "reading": "こわす",
+        "romaji": "kowasu",
+        "meaning": "Buzmoq, sindirmoq"
+    },
+    {
+        "kanji": "落ちる",
+        "reading": "おちる",
+        "romaji": "ochiru",
+        "meaning": "Tushib ketmoq"
+    },
+    {
+        "kanji": "落とす",
+        "reading": "おとす",
+        "romaji": "otosu",
+        "meaning": "Tushirib yubormoq"
+    },
+    {
+        "kanji": "無くなる",
+        "reading": "なくなる",
+        "romaji": "nakunaru",
+        "meaning": "Yo'qolmoq, tugamoq"
+    },
+    {
+        "kanji": "無くす",
+        "reading": "なくす",
+        "romaji": "nakusu",
+        "meaning": "Yo'qotib qo'ymoq"
+    },
+    {
+        "kanji": "壊れる",
+        "reading": "こわれる",
+        "romaji": "kowareru",
+        "meaning": "Buzilmoq"
+    },
+    {
+        "kanji": "拾う",
+        "reading": "ひろう",
+        "romaji": "hirou",
+        "meaning": "Terib olmoq"
+    },
+    {
+        "kanji": "見つかる",
+        "reading": "みつかる",
+        "romaji": "mitsukaru",
+        "meaning": "Topilmoq"
+    },
+    {
+        "kanji": "見つける",
+        "reading": "みつける",
+        "romaji": "mitsukeru",
+        "meaning": "Topmoq"
+    },
+    {
+        "kanji": "大丈夫な",
+        "reading": "だいじょうぶな",
+        "romaji": "daijoubuna",
+        "meaning": "Hechqisi yo'q, joyida"
+    },
+    {
+        "kanji": "大切な",
+        "reading": "たいせつな",
+        "romaji": "taisetsuna",
+        "meaning": "Muhim, qadrli"
+    },
+    {
+        "kanji": "探す",
+        "reading": "さがす",
+        "romaji": "sagasu",
+        "meaning": "Qidirmoq"
+    }
+]
