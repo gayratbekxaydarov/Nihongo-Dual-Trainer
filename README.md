@@ -41,13 +41,6 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-## Render.com ga joylash
-
-1. Loyihani GitHub'ga yuklang (`words.json` va `render.yaml` ildizda turishi kerak).
-2. Render'da **New → Blueprint** ni tanlab, repoga ulang va **Apply** ni bosing.
-3. Render `render.yaml` dan ikkita servis yaratadi: `nihongo-voice-trainer` va `nihongo-timer-trainer`. Manzillari `https://<nom>.onrender.com` ko'rinishida bo'ladi.
-4. Keyin `main` ga har bir push avtomatik qayta joylanadi (`autoDeploy`). So'z qo'shsangiz ham shunday.
-
 Eslatmalar:
 - Bepul tarifda servis 15 daqiqa ishlatilmasa uxlaydi, keyingi ochilish sekin bo'ladi.
 - Render HTTPS beradi, shuning uchun telefonda mikrofon ruxsati ishlaydi.
