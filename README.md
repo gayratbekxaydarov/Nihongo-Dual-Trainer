@@ -33,14 +33,6 @@ docker compose up --build
 - Ovozli: http://localhost:8001
 - Taymerli: http://localhost:8002
 
-Docker'siz:
-
-```bash
-cd 1-voice-trainer
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
 Eslatmalar:
 - Bepul tarifda servis 15 daqiqa ishlatilmasa uxlaydi, keyingi ochilish sekin bo'ladi.
 - Render HTTPS beradi, shuning uchun telefonda mikrofon ruxsati ishlaydi.
